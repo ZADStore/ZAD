@@ -7,7 +7,7 @@
     margin: 0;
 }
 body{
-    background-color: black;
+    background-color: rgba(69, 70, 66, 0.967);
 }
 .Logo{
     color: yellow;
@@ -45,10 +45,28 @@ body{
 }
 
 
-.all{
+.alll{
+    justify-content: center;
+    align-items: center;
+}
+
+.think{
+    align-items: center;
+    justify-content: center;
     display: flex;
-  
-    margin-top: 130px;
+}
+.all_things_in_web{
+    width: 1000px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+
+.all{
+
+   display: flex;
+
     justify-content: center;
     align-items: center;
 }
@@ -64,6 +82,7 @@ body{
     transition: 0.5s ease-out;
     overflow: visible;
     margin-left: 30px;
+    margin: 50px;
    }
    
    .card-details {
