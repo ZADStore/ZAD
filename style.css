@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Frijole&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Frijole&family=Oswald:wght@200;300;400;500;600;700&family=Righteous&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.Logo{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.loo{
+    font-family: 'Frijole', cursive;
+    font-size: 70px;
+    color: rgb(219, 221, 222);
+
+}
+.lo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.pp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow{
+    margin-top: 5px;
+    color: rgb(130, 130, 8);
+}
+
+
+.img{
+    width: 160px; 
+    height: 100px;
+}
+
+
+.all{
+    display: flex;
+  
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 170px;
+    height: 254px;
+    border-radius: 20px;
+    background: rgb(205, 210, 170);
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin-left: 30px;
+   }
+   
+   .card-details {
+    color: black;
+    
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .card-button {
+    -webkit-transform: translate(-50%, 125%);
+        -ms-transform: translate(-50%, 125%);
+            transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #008bf8;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    font-family: 'Dancing Script', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Righteous', cursive;
+    color: rgb(0, 0, 0);
+   }
+   
+   /*Text*/
+   .text-title {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Frijole', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #008bf8;
+    -webkit-box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+            box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    -webkit-transform: translate(-50%, 50%);
+        -ms-transform: translate(-50%, 50%);
+            transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+
+
+   .linnk{
+    text-decoration: none;
+   }
